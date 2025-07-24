@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Faq page</title>
     <!-- daisyUi link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -102,12 +102,12 @@
                 </div>
                 <div class="">
                     <h1 class="text-2xl md:text-2xl lg:text-5xl font-semibold ml-2 mt-14 md:mr-20 md:mt-18 ">
-                        Contact Us</h1>
-                    <ul class="flex gap-5 md:my-8 lg:ml-14 text-sm">
+                        FAQ</h1>
+                    <ul class="flex gap-5 md:my-8 lg:ml-2 text-sm">
                         <li><a href="index.html">Home</a></li>
                         <li class="font-semibold flex items-center gap-2"><span><i
                                     class="fa-solid fa-circle-dot text-[5px]" style="color: #FFD43B;"></i>
-                            </span> ContactUs</li>
+                            </span> FAQ</li>
                     </ul>
                 </div>
                 <div>
@@ -117,59 +117,80 @@
         </div>
     </header>
     <Main>
-        <section class="max-w-5xl mx-auto px-2 py-5">
-            <div class="flex flex-col md:flex-row justify-between gap-8 p-5 items-center mt-10">
-                <div class="space-y-4 text-center md:text-start">
-                    <h1 class="text-4xl md:text-5xl font-light">Leave A Message</h1>
-                    <h4 class="text-gray-500 text-sm">Write to us it you have any questions. We will definitely contact
-                        you
-                        and <br> find a solution.</h4>
-                    <div class="space-y-4">
-                        <input type="text" class="input join-item w-96" placeholder="Your name:*" /> <br>
-                        <input type="email" class="input join-item w-96" placeholder="Your email:*" /> <br>
-                        <textarea rows="3"
-                            class="block w-96 border-gray-300 p-3 rounded-md focus:ring focus:ring-opacity-75"
-                            placeholder="Message:*"></textarea>
+        <section class="mt-20 px-2 pt-5 relative">
+            <div class="flex flex-col md:flex-row justify-center p-5 items-center mt-10">
+                <div class="space-y-4 text-center md:text-start pb-10">
+                    <!-- search bar -->
+                    <label class="input">
+                        <input type="search" required placeholder="Search" />
+                        <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" fill="none"
+                                stroke="currentColor">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="m21 21-4.3-4.3"></path>
+                            </g>
+                        </svg>
+                    </label>
+                    <!-- faq section -->
+                    <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                        <input type="radio" name="my-accordion-2" checked="checked" />
+                        <div class="collapse-title font-semibold">How do I create an account?</div>
+                        <div class="collapse-content text-sm">Click the "Sign Up" button in the top right corner and
+                            follow the registration process.</div>
                     </div>
-                    <div class="flex justify-center md:justify-start gap-4">
-                        <button class="btn btn-neutral">Submit</button>
+                    <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title font-semibold">I forgot my password. What should I do?</div>
+                        <div class="collapse-content text-sm">Click on "Forgot Password" on the login page and follow
+                            the instructions sent to your email.</div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title font-semibold">How do I update my profile information?</div>
+                        <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to
+                            make changes.</div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title font-semibold">How do I update my profile information?</div>
+                        <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to
+                            make changes.</div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title font-semibold">How do I update my profile information?</div>
+                        <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to
+                            make changes.</div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title font-semibold">How do I update my profile information?</div>
+                        <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to
+                            make changes.</div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title font-semibold">How do I update my profile information?</div>
+                        <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to
+                            make changes.</div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title font-semibold">How do I update my profile information?</div>
+                        <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to
+                            make changes.</div>
+                    </div>
+                    <div>
+                        <a class="text-sm" href="">See More -></a>
                     </div>
                 </div>
-                <div>
-                    <img class="w-60 md:w-[700px] mt-4" src="./assets/art12.png" alt="">
-                </div>
-            </div>
-            <!-- icon section -->
-            <div class="flex justify-between flex-col md:flex-row items-center my-5">
-                <div class="flex flex-col space-y-1 mb-8 items-center">
-                    <img class="mb-4" src="./assets/icon1.png" alt="">
-                    <h1 class="text-2xl font-semibold">Address</h1>
-                    <p class="text-sm text-gray-500">27 Devision ST, New York</p>
-                    <p class="text-sm text-gray-500">Ny 123344, USA</p>
-                </div>
-                <div class="flex flex-col space-y-1 my-8 items-center">
-                    <img class="mb-4" src="./assets/icon2.png" alt="">
-                    <h1 class="text-2xl font-semibold">Hit Us Up</h1>
-                    <p class="text-sm text-gray-500">+1222222343545</p>
-                    <p class="text-sm text-gray-500">info@noirelan.com</p>
-                </div>
-                <div class="flex flex-col space-y-1 my-8 items-center">
-                    <img class="mb-4" src="./assets/icon3.png" alt="">
-                    <h1 class="text-2xl font-semibold">Shedule</h1>
-                    <p class="text-sm text-gray-500">27 Devision ST, New York</p>
-                    <p class="text-sm text-gray-500">Ny 123344, USA</p>
+                <!-- pic -->
+                <div class="justify-end absolute bottom-0 right-0">
+                    <img class="w-50 md:w-[300px] mt-4" src="./assets/art13.png" alt="">
                 </div>
             </div>
         </section>
-        <!-- map section -->
-        <section>
-            <div class="w-full h-64 md:h-96">
-                <iframe class="w-full h-full rounded-lg shadow-lg"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233668.0639689833!2d90.25487663557924!3d23.780753030672756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1753373462741!5m2!1sen!2sbd"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </section>
+
         <!-- gallery section -->
         <section>
             <div class="grid grid-cols-1">
