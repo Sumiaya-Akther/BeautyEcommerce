@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>Confirm Checkout</title>
     <!-- daisyUi link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -102,12 +102,12 @@
                 </div>
                 <div class="">
                     <h1 class="text-2xl md:text-2xl lg:text-5xl font-semibold ml-2 mt-14 md:mr-20 md:mt-18 ">
-                        Profile</h1>
-                    <ul class="flex gap-5 md:my-8 lg:ml-6 text-sm">
+                        Checkout</h1>
+                    <ul class="flex gap-5 md:my-8 lg:ml-12 text-sm">
                         <li><a href="index.html">Home</a></li>
                         <li class="font-semibold flex items-center gap-2"><span><i
                                     class="fa-solid fa-circle-dot text-[5px]" style="color: #FFD43B;"></i>
-                            </span> Profile</li>
+                            </span> Checkout</li>
                     </ul>
                 </div>
                 <div>
@@ -117,204 +117,119 @@
         </div>
     </header>
     <Main>
-        <!-- order again section -->
-        <section class=" mt-20">
-            <!-- part1 -->
-            <div class="max-w-5xl mx-auto px-5">
-                <div class="flex border justify-around border-gray-200 mb-6">
-                    <div
-                        class="px-6 py-3 flex-1 text-center text-gray-500 font-medium hover:bg-[#f6f8fc] hover:text-gray-800 cursor-pointer">
-                        MY ORDERS
-                    </div>
-                    <div
-                        class="px-6 py-3 flex-1 text-center text-gray-500 font-semibold hover:text-gray-800 hover:bg-[#f6f8fc]  cursor-pointer">
-                        WISHLIST
-                    </div>
-                    <div
-                        class="px-6 py-3 flex-1 text-center text-gray-500 font-medium hover:bg-[#f6f8fc]  hover:text-gray-800 cursor-pointer">
-                        MY INFO
-                    </div>
-                </div>
-                <!-- table -->
-                <div class=" mb-6">
-                    <div class="flex justify-between items-center bg-gray-50 p-4 border-b border-gray-300 rounded-t-lg">
-                        <div class="flex items-center text-sm font-semibold text-gray-700">
-                            <i class="fas fa-truck-moving text-green-500 mr-2"></i>
-                            Awaiting Delivery
-                        </div>
-                        <div class="text-sm text-gray-500">
-                            Order no.2635832, 06/10/2021 in 02:00 pm
-                        </div>
-                        <button class="text-gray-500 hover:text-gray-700 text-sm flex items-center">
-                            CLOSE <i class="fas fa-chevron-up ml-1"></i>
-                        </button>
-                    </div>
-                    <div class="p-4">
-                        <div class="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0">
-                            <div class="flex items-center">
-                                <img class="max-w-16 h-16 object-cover mr-4" src="./assets/product1.png" alt="Sun Milk">
-                                <div>
-                                    <h4 class="text-gray-800 font-medium">Sun Milk</h4>
-                                    <p class="text-gray-500 text-sm">Lollipop sun milk for sensitive and atopic-prone
-                                        skin of babies SPF 50</p>
-                                </div>
-                            </div>
-                            <span class="text-gray-900 font-medium text-lg">1 x $120</span>
-                        </div>
 
-                        <div class="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0">
-                            <div class="flex items-center">
-                                <img class="max-w-16 h-16 object-cover mr-4" src="./assets/product1.png" alt="Sun Milk">
-                                <div>
-                                    <h4 class="text-gray-800 font-medium">Sun Milk</h4>
-                                    <p class="text-gray-500 text-sm">Lollipop sun milk for sensitive and atopic-prone
-                                        skin of babies SPF 50</p>
-                                </div>
-                            </div>
-                            <span class="text-gray-900 font-medium text-lg">1 x $60</span>
-                        </div>
-
-                        <div class="flex items-center justify-between py-3 last:border-b-0">
-                            <div class="flex items-center">
-                                <img class="max-w-16 h-16 object-cover mr-4" src="./assets/product1.png" alt="Sun Milk">
-                                <div>
-                                    <h4 class="text-gray-800 font-medium">Sun Milk</h4>
-                                    <p class="text-gray-500 text-sm">Lollipop sun milk for sensitive and atopic-prone
-                                        skin of babies SPF 50</p>
-                                </div>
-                            </div>
-                            <span class="text-gray-900 font-medium text-lg">1 x $80</span>
-                        </div>
-                    </div>
-                    <!-- information -->
-                    <div class="grid grid-cols-1 md:grid-cols-3 p-4 bg-gray-50 rounded-b-lg">
-                        <div
-                            class="bg-[#e8eff3] flex-1 border-r justify-center items-center border-gray-300 p-5 flex flex-col text-start">
-                            <h5 class="font-semibold text-gray-700 mb-1">Information</h5>
-                            <p class="text-gray-600 text-sm">Annabelle Johnson</p>
-                            <p class="text-gray-600 text-sm">+1 866.434.1515</p>
-                        </div>
-                        <div
-                            class="bg-[#e8eff3] flex-1 border-r justify-center items-center border-gray-300 p-5 flex flex-col text-start">
-                            <h5 class="font-semibold text-gray-700 mb-1">Delivery Method</h5>
-                            <p class="text-gray-600 text-sm">Deliver America</p>
-                            <p class="text-gray-600 text-sm">101 E 75th St, New York, NY 10021</p>
-                        </div>
-                        <div class="bg-[#e8eff3] flex-1 justify-center items-center p-5 flex flex-col text-start">
-                            <h5 class="font-semibold text-gray-700 mb-1">Payment Method</h5>
-                            <p class="text-gray-600 text-sm">PayService</p>
-                            <p class="text-gray-600 text-sm">Card: **** **** 1628</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="mt-6 ml-4">
-                    <button
-                        class="bg-gray-800 text-white px-4 py-2 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50">
-                        ORDER AGAIN
-                    </button>
-                </div>
-            </div>
-            <!-- part2 -->
-
-        </section>
         <!-- prodict section -->
-        <section class="px-2 pt-2 relative">
-            <div class="max-w-5xl mx-auto p-5 items-center mb-20 mt-10">
-                <div>
-                    <div class="">
-                        <div class="border-b border-gray-200">
-                            <div class="flex justify-between items-center p-6">
-                                <div>
-                                    <div class="flex items-center text-sm font-semibold text-red-400">
-                                        <i class="fas fa-exclamation-triangle mr-2"></i>
-                                        Payment Failed
-                                    </div>
-                                    <div class="text-sm text-gray-500">
-                                        Order no.2635832, 06/10/2021 in 02:00 pm
-                                    </div>
+        <section class="relative">
+            <div class="max-w-5xl mx-auto items-center mb-20 px-5 mt-20">
+                <div class=" grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    <!-- right side -->
+                    <div class="lg:col-span-2">
+                        <div class="space-y-4">
+                            <div class="text-white bg-[#df949d] p-4 text-sm flex items-center font-semibold">
+                                <span
+                                    class="bg-white rounded-full h-6 w-6 flex items-center text-black justify-center text-xs mr-3">1</span>
+                                SHIPPING INFORMATION
+                            </div>
+
+                            <div class="text-white bg-[#df949d] p-4 text-sm flex items-center font-semibold">
+                                <span
+                                    class="bg-white text-black rounded-full h-6 w-6 flex items-center justify-center text-xs mr-3">2</span>
+                                PAYMENT METHODS
+                            </div>
+
+                            <div class="border border-gray-300">
+                                <div class="bg-gray-200 p-4 flex items-center text-sm font-semibold text-gray-700">
+                                    <span
+                                        class="bg-gray-500 text-white rounded-full h-6 w-6 flex items-center justify-center text-xs mr-3">3</span>
+                                    CONFIRMATION
                                 </div>
-                                <button class="flex items-center text-sm cursor-pointer focus:outline-none">
-                                    VIEW DETAILS <i class="fas fa-chevron-down ml-1"></i>
-                                </button>
+                                <div class="p-6">
+                                    <div class="pb-4 border-b border-gray-300">
+                                        <h3 class="font-semibold text-gray-800 mb-2">Shipping Information</h3>
+                                        <p class="text-gray-600 text-sm mb-4">Brooklyn Simmons</p>
+                                        <p class="text-gray-600 text-sm">27 Division St, New York, NY 10002, USA</p>
+                                    </div>
+
+                                    <h3 class="font-semibold text-gray-800 mt-6 mb-2">Payment Methods</h3>
+                                    <p class="text-gray-600 text-sm">Credit card: **** **** 1633</p>
+
+                                    <button
+                                        class="bg-gray-800 text-white px-8 py-3 mt-6 text-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50">
+                                        CONFIRM
+                                    </button>
+                                </div>
                             </div>
                         </div>
+                    </div>
+                    <!-- left side -->
+                    <div class="lg:col-span-1 bg-white">
+                        <h2 class="text-2xl font-semibold text-gray-800 mb-4">Your Order</h2>
 
-                        <div class="border-b border-gray-200">
-                            <div class="flex justify-between items-center p-6">
+                        <div class="space-y-4 mb-6">
+                            <div class="flex items-center">
+                                <img class="max-w-12 h-12 object-cover mr-4 rounded-md" src="./assets/product1.png"
+                                    alt="Product Image">
                                 <div>
-                                    <div class="flex items-center text-sm font-semibold text-green-400">
-                                        <i class="fas fa-box-open mr-2"></i>
-                                        Order Delivered
-                                    </div>
-                                    <div class="text-sm text-gray-500">
-                                        Order no.2635832, 06/10/2021 in 02:00 pm
-                                    </div>
+                                    <p class="text-gray-800 font-medium">Intensive Care Dry Skin Rich Body Milk</p>
+                                    <p class="text-gray-600 text-sm">1 x $120</p>
                                 </div>
-                                <button class="text-sm font-semibold cursor-pointer flex items-center focus:outline-none">
-                                    VIEW DETAILS <i class="fas fa-chevron-down ml-1"></i>
-                                </button>
+                            </div>
+                            <div class="flex items-center">
+                                <img class="max-w-12 h-12 object-cover mr-4 rounded-md" src="./assets/product1.png"
+                                    alt="Product Image">
+                                <div>
+                                    <p class="text-gray-800 font-medium">Hyalurogel Night Hydrating Cream</p>
+                                    <p class="text-gray-600 text-sm">1 x $80</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <img class="max-w-12 h-12 object-cover mr-4 rounded-md" src="./assets/product1.png"
+                                    alt="Product Image">
+                                <div>
+                                    <p class="text-gray-800 font-medium">Daily Sunscreen SPF 50+</p>
+                                    <p class="text-gray-600 text-sm">1 x $150</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <img class="max-w-12 h-12 object-cover mr-4 rounded-md" src="./assets/product1.png"
+                                    alt="Product Image">
+                                <div>
+                                    <p class="text-gray-800 font-medium">Face Care Olive 90% Cleansing Oil</p>
+                                    <p class="text-gray-600 text-sm">2 x $30</p>
+                                </div>
                             </div>
                         </div>
+                        <!-- carbon applied -->
+                        <div class="bg-[#e8eff3] p-6 mt-8">
+                            <div class="flex items-center text-green-500 font-medium text-sm mb-4">
+                                <i class="fas fa-check-circle mr-2"></i> Coupon Applied
+                            </div>
 
-                        <div class="border-b border-gray-200">
-                            <div class="flex justify-between items-center p-6">
-                                <div>
-                                    <div class="flex items-center text-sm font-semibold text-green-400">
-                                        <i class="fas fa-box-open mr-2"></i>
-                                        Order Delivered
-                                    </div>
-                                    <div class="text-sm text-gray-500">
-                                        Order no.2635832, 06/10/2021 in 02:00 pm
-                                    </div>
+                            <div class="space-y-2 text-gray-500">
+                                <div class="flex justify-between">
+                                    <span>Subtotal</span>
+                                    <span>$410</span>
                                 </div>
-                                <button class="text-sm cursor-pointer font-semibold flex items-center focus:outline-none">
-                                    VIEW DETAILS <i class="fas fa-chevron-down ml-1"></i>
-                                </button>
+                                <div class="flex justify-between">
+                                    <span>Discount</span>
+                                    <span>15% ($62)</span>
+                                </div>
+                                <div class="flex justify-between border-b pb-2 border-gray-200">
+                                    <span>Delivery</span>
+                                    <span>$0</span>
+                                </div>
+                                <div class="flex justify-between text-lg font-bold text-gray-700 pt-2">
+                                    <span>Total</span>
+                                    <span>$348</span>
+                                </div>
                             </div>
                         </div>
-
-
-                        <div class="border-b border-gray-200">
-                            <div class="flex justify-between items-center p-6">
-                                <div>
-                                    <div class="flex items-center text-sm font-semibold text-green-400">
-                                        <i class="fas fa-box-open mr-2"></i>
-                                        Order Delivered
-                                    </div>
-                                    <div class="text-sm text-gray-500">
-                                        Order no.2635832, 06/10/2021 in 02:00 pm
-                                    </div>
-                                </div>
-                                <button class="text-sm cursor-pointer font-semibold flex items-center focus:outline-none">
-                                    VIEW DETAILS <i class="fas fa-chevron-down ml-1"></i>
-                                </button>
-                            </div>
-                        </div>
-
-
-                        <div class="border-b border-gray-200">
-                            <div class="flex justify-between items-center p-6">
-                                <div>
-                                    <div class="flex items-center text-sm font-semibold text-green-400">
-                                        <i class="fas fa-box-open mr-2"></i>
-                                        Order Delivered
-                                    </div>
-                                    <div class="text-sm text-gray-500">
-                                        Order no.2635832, 06/10/2021 in 02:00 pm
-                                    </div>
-                                </div>
-                                <button class="text-sm cursor-pointer font-semibold flex items-center focus:outline-none">
-                                    VIEW DETAILS <i class="fas fa-chevron-down ml-1"></i>
-                                </button>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>
             <!-- pic -->
-            <div class="justify-end absolute bottom-0 left-0">
-                <img class="w-50 md:w-[310px] mt-4" src="./assets/art8.png" alt="">
+            <div class="justify-end absolute bottom-0 right-0 ml-8">
+                <img class="w-50 md:w-[300px] mt-4" src="./assets/art14.png" alt="">
             </div>
             </div>
         </section>
